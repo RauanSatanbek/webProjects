@@ -1,0 +1,191 @@
+
+#mainForum{
+	width: 100%;
+	height: 570px;
+	border-top:1px solid silver;
+	/*border-bottom:1px solid silver;*/
+	margin: 0 auto;
+	/*margin-top: 20px;
+	margin-bottom: -20px;*/
+}
+#bodyForum, #headerForum, #footerForum{
+	width: 100%;
+}
+/* #headerForum, #footerForum{
+	background: #2F4F4F;
+	opacity:.8;
+}*/
+#headerForum{
+	/*display: block;*/
+	height: 20px;
+	line-height: 20px;
+	/*box-shadow: 0 0 10px rgba(0,0,0,1);*/
+	/*border-bottom: 1px solid silver;*/
+	box-shadow: 0 3px 0 rgba(0,0,0,.2);
+}
+
+#headerForum p{
+	margin-left: 10px;
+}
+#bodyForum{
+	/*padding: 10px;*/
+	height: 495px;
+	overflow: auto;
+	/*background: #f5f5f5;*/
+
+}
+
+/*Вид личный сообщений*/
+	.messages, .MyMessages{
+		width: 92%;
+		margin-left: 2%;
+		margin-top: 10px;
+		padding: 10px;
+		height: auto;
+		color:#333;
+		font-family: Arial;
+		font-size: 1em;
+		border:1px solid silver;
+		background:#f5f5f5;
+		/*background: url(../img/fresh_snow.png);*/
+		border-radius: 5px;
+		
+		/*box-shadow: inset 0 0 15px rgba(0,0,0, .2);*/
+	}
+/*тень сообщений какторые были написаны нам*/
+
+	.messages{
+		float: left;
+		box-shadow: 0 0 10px rgba(47,79,79, .2) ,inset 0 0 15px rgba(47,79,79, .3);
+	}
+	#otherMessage{
+		width: 60%;
+		background: #ADD8E6;
+		
+	}
+/*тень сообщений каторую написали мы*/
+	.MyMessages{
+		background: #EEE8AA;
+		width: 60%;
+		float: right;
+		box-shadow: 0 0 10px rgba(255, 0, 0, .2) ,inset 0 0 15px rgba(255, 0, 0, .3);
+	}
+/*every message*/
+	#message{
+		color:black;
+	}
+	#messageLike{
+		display: block;
+		margin-top: 10px;
+		width: 100%;
+		height: 40px;
+		/*background: red;*/
+	}
+	.like/*,.likeImg1, .likeImg2*/{
+		float: right;
+		width: 100px;
+		height: 20px;
+		text-align: center;
+		line-height: 20px;
+		margin-right: 10px;
+		margin-top: 10px;
+		border-radius: 3px;
+		color:#333;
+	}
+	.like:hover{
+		/*border: 1px solid #6495ED;*/
+		color:#333;
+		background: #DCDCDC;
+		cursor:pointer;
+		transition:.5s;
+	}
+	.countLike{
+		display: inline-block;
+	}
+
+	/*icon like*/
+		/*.likeImg1, .likeImg2{
+		    width:24px;
+		    height: 24px;
+		    background: url("../img/like/icons.jpg") no-repeat;
+		    border: 2px solid #fff;
+		}
+
+		.likeImg1{
+			background-position: -162px -140px;
+		}
+		.likeImg2{
+			background-position: -131px -140px;
+		}*/
+	/*----------------------*/
+	.pFromMessage{
+		display: inline-block;
+		margin-bottom: 10px;
+
+	}
+	#nameWriter{
+		color:#800000;
+		font-family: "Tahoma";
+		font-size: 1.2em;
+		font-weight: bold;
+	}
+	#time{
+		float: right;
+		color:#800000;
+
+	}
+#footerForum{
+	padding-top: 5px;
+	height: 100px;
+}
+
+#textareaForum{
+	font-family: Arial;
+	display: block;
+	resize:none;
+	width: 50%;
+	height: 50px;
+	margin-left:25%;
+	padding: 5px;
+	border:1px solid #999;
+}
+
+#textareaForum:focus{
+	color:#333;
+	outline:none;
+}
+
+.buttonForum{
+	/*display: inline-block;*/
+	/*background: #004d40;*/
+	background: url(../img/cartographer.png);
+	color:white;
+	width: 100px;
+	height: 30px;
+	border-radius: 3px;
+	border:1px solid silver;
+}
+#buttonAndIcon{
+	display: inline-block;
+	margin-left:25%;
+	margin-top: 5px;
+
+}
+#buttonForum{}
+
+.buttonForum:focus{
+	outline:none;
+}
+/*icon Screpka */
+.labelIconScrepka{
+	/*margin-left: 25%;*/
+}
+
+.buttonForum:hover{
+	border:1px solid silver;
+	outline:none;
+	transition:.3s;
+	/*background: #000;*/
+	background: url(../img/binding_dark.png);
+	cursor: pointer;
+}

@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^main/([0-9]+)/? page/main.php?id=$1 [L]

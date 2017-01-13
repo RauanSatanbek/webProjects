@@ -1,0 +1,171 @@
+.bodyF{
+	margin:10px;
+}
+.bodyF p{
+	background: #444455;
+	height: 25px;
+	margin-top: 1px;
+	line-height:25px;
+	padding-left: 30px;
+	color:#f0f0f0;
+	border-radius:4px;
+}
+.subject:hover{
+	cursor:pointer;
+	padding-left: 60px;
+	transition:.8s;
+	}
+
+.headD{
+	width: 100%;
+	height: 25px;
+	border-radius: 0;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	background: #445;
+}
+.bodyD{
+	margin:0 auto;
+	width: 99.7%;
+	height: 400px;
+	border-radius: 0;
+	border:1px solid #667;
+	background: #f1f1f1;
+	overflow: auto;
+	color:#445;
+}
+#bodyDTest{
+	display: none;
+}
+.footD{
+	padding-top: 10px;
+	width: 100%;
+	min-height: 80px;
+	border-radius: 0;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	background: #445;
+	overflow: hidden;
+}
+/* forumD*/
+
+/*.button{
+	width: 150px;
+	margin-left: 120px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}*/
+.forumD{
+	width: 80%;
+	border:1px solid #889;
+	margin:5px auto;
+	border-radius:5px;
+	overflow: hidden;
+	background: #f0f0f0;
+	z-index:-50;
+}
+.me{
+	float: right;
+	background: #FCDD76;
+	margin-right: 10px;
+}
+.other{
+	float: left;
+	background: #84C3BE;
+	margin-left: 10px;
+}
+/*.photoForum{
+	width: 85px;
+	height: 85px;
+	background: #888;
+	margin: 8px auto;
+	border-radius:5px;
+	overflow: hidden;
+}
+.photoForum img{
+	margin-left:-10px;
+	margin-top: -15px;
+}*/
+.infoQuestion{
+	width: 100%;
+	min-height: 60px;
+	border-left:1px solid #889;
+	float: right;
+}
+.infoUserForum{
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	border-bottom: 1px solid #445;
+	box-shadow: 0 1px  0 rgba(255,255,255,.3);
+}
+.name{
+	float: left;
+	margin-left: 5px;
+}
+.time{
+	float: right;
+	margin-right: 5px;
+}
+.messageForum{
+	padding:5px;
+	min-height: 20px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	border-bottom: 1px solid #445;
+	box-shadow: 0 1px  0 rgba(255,255,255,.3);
+	/*background: blue;*/
+}
+.openComment{
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	/*margin-top: 35px;*/
+	/*border-top:1px solid #889;*/
+}
+.openAndClose{
+	margin-left: 5px;
+}
+.openAndClose:hover{
+	cursor:pointer;
+	text-decoration: underline;
+}
+.answers,.close{
+	display: none;
+}
+
+/*textarea*/
+	.textarea1{
+		display: inline-block;
+		max-width: 450px;
+		min-width: 450px;
+		height: 60px;
+		/*margin:0 auto;*/
+		margin-left:60px;
+		border:none;
+		padding: 3px;
+		border-radius: 4px;
+
+	}
+	.textarea1:focus{
+		resize:none;
+	}
+	#sendQuestion{
+		border:1px solid #556;
+		border-radius:4px;
+		width: 100px;
+		height: 30px;
+		line-height: 30px;
+		color:#444;
+		display: inline-block;
+		position: absolute;
+		margin: 0px 8px;
+		background: #00ACED;
+	}
+	#sendQuestion:hover{
+		cursor: pointer;
+		background: #0095B6;
+	}

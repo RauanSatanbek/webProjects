@@ -1,0 +1,76 @@
+body{background: url(../img/seamless_paper_texture.png);}
+@font-face { font-family: Rauan;src: url(../шрифты/2211.ttf);}
+*{
+	margin: 0 0;
+	padding:0 0;
+	font-family:'Rauan';
+	text-decoration: none;
+	outline: none;
+	font-size: 14px;
+}
+.navbar{background-color: #286090;}
+.nav li a{color:#fff;}
+.nav li a:hover{background: #337ab7;cursor:pointer;}
+.middle{margin-top: 60px;}
+.row .col{background-color: #fff;min-height:200px;border-radius: 0;border:1px solid #ccc;}
+.navbar-button{background: none;border:none;}
+.navbar-button span{background:#fff;}
+.navbar-header{border:1px solid #204d74;}
+.navbar-header:hover{background-color: #337ab7;}
+.close span{font-size: 16px;}
+.modal-title{font-size: 20px;line-height: 20px;}
+.button{width: 100%;}
+.p{
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	background: red;
+	margin: 5px 0;
+	background-color: #c9302c;
+	padding-left: 5px;
+	color:#fff;
+	cursor: pointer;
+}
+.table{margin-top: 5px;}
+.modal-show{position: fixed;display: none;width: 250px;min-height: 60px;border:1px solid #122b40;border-radius: 5px;right: 10px;top:55px;z-index: 5000;background: #444;}
+.modal-show-close{
+	margin: 5px;
+	margin-top: 0px;
+	float: right;
+	color: #fff;
+	cursor: pointer;
+}
+.modal-show-body{padding: 10px;}
+.error{color:#c9302c;margin-top: 5px;margin-left: 5px;}
+.user-name{display: inline-block;float: right;margin: 15px 10px;color:#fff;text-decoration: underline;}
+.chat-open{float: right;margin-right: 10px;}
+.Hide{display: none;}
+.chat-block{
+	widows: 100%;
+	min-height: 400px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.chat-header{
+	width: 100%;
+	height: 30px;
+	background: #286090;
+}
+.chat-body{
+	width: 100%;
+	height: 400px;
+	border-right:1px solid #286090;
+	border-left:1px solid #286090;
+	padding-top: 10px;
+	overflow: auto;
+}
+.chat-footer{
+	width: 100%;
+	min-height: 100px;
+	background: #286090;
+}
+.chat-textarea{min-width: 70%;max-width: 70%;border:1px solid #204d74;margin: 10px;padding-left: 10px;border-radius: 5px;}
+.chat-button{margin-top: -100px;}
+.chat-message{width: 50%;min-height: 70px;margin: 10px;margin-top: 0;border:1px solid silver;border-radius: 5px;padding:10px;}
+.message-me{float: right;background-color: #fcf8e3;}
+.message-other{float: left;background-color: #f7ecb5;}

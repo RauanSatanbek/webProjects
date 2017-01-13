@@ -1,0 +1,97 @@
+@font-face {font-family: Roboto;src: url(../шрифты/Roboto-Light.ttf);}
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700&subset=cyrillic,latin,cyrillic-ext);
+@font-face {
+  font-family: 'MicrogrammaD-BoldExte';
+  src : url(../шрифты/MicrogrammaD-BoldExte.woff);
+}
+*{
+	margin: 0 0;
+	padding: 0 0;
+	font-family:Tahoma, 'Roboto Condensed', sans-serif;
+	text-decoration: none;
+	outline: none;
+	font-size: 14px;
+	color:#333;
+	font-family: Roboto;
+}
+.container-fluid{background: #fff;min-height: 1008px;
+  background: #f57373;}
+
+.logoName {
+  font-family: 'MicrogrammaD-BoldExte' !important;
+  float: left;
+  font-weight: 900;
+  font-size: 35px;
+  margin-top: -12.5px;
+  transform: scaleY(1.1);
+}
+.logoType {
+  float: left;
+  height: 26px;
+  border-right: 1px solid black;
+  padding: 0px 11px 0px 6px;
+  font-size: 17px;
+  font-weight: 300;
+  color:#fff;
+}
+.logoSlogan {
+  font-weight: 300;
+  float: left;
+  text-transform: uppercase;
+  margin: 2px 0 0 10px;
+  background-color: rgba(0, 0, 0, 0);
+  font-style: normal;
+  font-size: 11px;
+  line-height: 11px;
+  color:#fff;
+}
+
+.middle{padding: 0 0;}
+header{width: 100%;height: 100px;padding: 40px;}
+.body{
+  width: 100%;
+  /*border:1px solid #ccc;*/
+  min-height: 1000px;
+  background: #f2f2f2;
+  padding-left: 6%;
+}
+.body .body-body{background: #fff;width: 94%;border:1px solid #ccc;padding: 15px 0;}
+.left-menu, .right-menu{
+  width: 50px;
+  position: absolute;
+  top:100px;
+}
+.left-menu{left: -50px;}
+.left-menu .menu-btns{border-right: none;}
+.right-menu{right: -50px;;}
+.right-menu .menu-btns{border-left: none;}
+.menu-btns{
+  width: 100%;
+  height: 50px;
+  /*border:1px solid #ccc;*/
+  /*border-top:none;*/
+  /*background: #fff;*/
+  padding: 9px;
+}
+.btn-select{display: inline-block;margin-left: 10px;padding: 5px 10px;border-radius: 3px;}
+.btn-select:hover{background: #f57373;color:#fff;transition: .2s;cursor: pointer;}
+.btn-group{float: right;margin-right: 15px;}
+.lists tr .tema{color:#0078ca;}
+.lists tr .tema:hover{cursor: pointer;text-decoration: underline;}
+/*.right-menu .menu-btns:first-child, .left-menu .menu-btns:first-child{border-top:1px solid #ccc;}*/
+.select-menu{width: 100%;height: 50px;background: #444;margin: 20px 0;}
+.comments{padding-top: 20px;}
+.comment{
+  width: 90%;
+  margin-left: 5%;
+  height: 100px;
+}
+/*.comment:hover{background: #f9f8f6;}*/
+.search{width: 350px;float: right;display: inline-block;margin-right: 20px;}
+#search{cursor: pointer;}
+#search:hover{background: #ccc;}
+.body-header{width: 100%;min-height: 55px;padding-top: 10px;}
+.body-text{font-size: 30px;display: inline-block;margin-top: 5px;margin-left: 10px;color:#666;}
+.star:hover{color:#FFD700;cursor: pointer;}
+.star2{display: none;}
+.star{font-size: 16px;}

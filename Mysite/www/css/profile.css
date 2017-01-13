@@ -1,0 +1,47 @@
+#profile{
+	width: 94%;
+	margin-left: 3%;
+	margin-top: 20px;
+}
+
+#avatarProfile{
+	width: 40%;
+	/*border: 1px solid blue;*/
+	height: 400px;
+	float: left;
+}
+
+#infoProfile{
+	float: right;
+	width: 59%;
+	/*border: 1px solid red;*/
+	height: 400px;
+}
+
+#inputFile{
+	display: none;
+}
+
+#labelFile, .nameUser{
+	display: block;
+	background: #999;
+	text-align: center;
+	line-height:25px;
+	color:white;
+	cursor:pointer;
+	border-radius: 3px;
+	margin-bottom: 10px;
+
+}
+
+#labelFile{
+	width: 192px;
+	height: 25px;
+}
+.nameUser{
+	width: 100%;
+	height: 30px;
+}
+#ErrorAvatar{
+	color:red;
+			}

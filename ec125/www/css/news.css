@@ -1,0 +1,18 @@
+.modal-show{position: fixed;display: none;width: 250px;min-height: 60px;border:1px solid #122b40;border-radius: 5px;right: 10px;top:55px;z-index: 5000;background: #444;}
+.modal-show-close{
+	margin: 5px;
+	margin-top: 0px;
+	float: right;
+	color: #fff;
+	cursor: pointer;
+}
+.modal-show-body{padding: 10px;}
+.block-news{
+	min-height: 100px;
+	background: #fff;
+	border:1px solid silver;
+}
+.news-text{padding: 10px 0;font-size: 14px;}
+.news-date{font-size: 13px;color:#555;display: inline-block;}
+.news-like{display: inline-block;float: right;margin-right: 20px;cursor: pointer;}
+#like{color:#777;}

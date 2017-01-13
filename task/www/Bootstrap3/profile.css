@@ -1,0 +1,789 @@
+*{
+	font-size: 13px;
+}
+.t2 .tr2 {border:none;}
+.mainNav{
+	margin: 0 0;
+	border-bottom: 1px solid silver;
+}
+.middle{
+	width: 76.1%;
+	margin-top: 0;
+	margin-bottom: 5px;
+	margin-left: 12%;
+	background: none;
+	border:none;
+	overflow: hidden;
+}
+.blockRight, .blockLeft{
+	border: 1px solid silver;
+	border-radius: 3px;
+	background-color: #fff;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.blockLeft{
+	width: 65%;
+	min-height: 150px;
+	overflow: hidden;
+	float: right;
+}
+.blockRight{
+	width: 30%;
+	min-height: 400px;
+	float: left;
+	/*margin-right: -2px;*/
+}
+.p{
+	font-size: 14px;
+	color: #fff;
+	margin: 5px;
+	background: #009B76;
+	border-radius: 3px;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 10px;
+}
+.p:hover{
+	cursor: pointer;
+	/*padding-left: 20px;
+	transition:.5s;*/
+}
+.open{
+	color:#fff;
+}
+
+.Form{
+	margin: 0 0;
+	padding: 0 0;
+	margin-left: 5px;
+}
+.input2, .button, #number{
+	border:1px solid silver;
+}
+.input2{
+	width: 150px;
+}
+.button{
+	
+	border:1px solid #999;
+}
+
+.select{
+	border-radius: 5px;
+	width: 50px;
+	height: 32px;
+	border:1px solid silver;
+}
+
+#curator, #curatorChangeGroup{
+	width: 120px;
+}
+#addChange{width: 130px;}
+#creatGroup{width: 80px;}
+#turnOn{width:90px;}
+#changeSubject{width: 90px;}
+#changeGroup{width: 100px;}
+.span1{
+	font-size: 13px;
+	color:#00CD66;
+}
+.errors{
+	width: 240px;
+	height: 50px;
+	background: #333;
+	position: fixed;
+	border:1px solid silver;
+	border-radius: 4px;
+	z-index: 123;
+	float: right;
+	margin: 5px 1078px;
+	overflow: auto;
+	display: none;
+	/*padding:10px 5px;*/
+}
+#exit{
+	color:#fff;
+	float: right;
+	font-size: 20px;
+	margin: 0 0;
+}
+#exit:hover{
+	cursor: pointer;
+}
+.right1{
+	width: 5%;
+	height: 100%;
+	/*border:1px solid red;*/
+	float: right;
+	/*margin-right: 1%;*/
+}
+.left1{
+	width: 90%;
+	height: 100%;
+	/*border:1px solid blue;*/
+	float: left;
+	margin-left: 1%;
+
+}
+.pupils{
+	width: 97%;
+	margin:5px;
+	min-height: 25px;
+	/*border:1px solid #EEE9E9;*/
+	border-radius: 3px;
+	overflow: hidden;
+	display: none;
+}
+table{
+	width: 100%;
+	border-spacing: 0px 0px;
+	overflow: hidden;
+}
+table tr{
+	width: 100%;
+}
+table tr td{
+	border:1px solid silver;
+	text-align: center;
+	color:#444;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	/*border-radius: 3px;*/
+}
+table tr th{
+	color:#333;
+	height: 20px;
+	line-height: 20px;
+	border-left:none;
+	border-bottom: none;
+	font-size: 13px;
+	/*border-radius: 3px;*/
+}
+
+.Number{width:8%; }
+.Name, .Number, .Id{border:none;border-bottom:1px solid silver;}
+.Number, .Id{border-right:1px solid silver;border-left:1px solid silver;}
+
+.td{border-top:1px solid silver;}
+.open{float: right;margin-right: 5px;}
+.inlineBlockForm{display: inline-block;}
+.remove{border-left:1px solid silver;}
+#remove{width: 80px;}
+#turnOff{width:80px;}
+
+.t2{
+	width: 98.5%;
+	border-spacing: 0 0 ;
+	margin:5px 5px;
+}
+.t2 .tr2{
+	/*background: #DFDFDF; */
+}
+.t2 .tr2, .th2{
+	border:1px solid silver;
+	color:#333;
+	height: 20px;
+	line-height: 20px;
+	border-left:none;
+	border-bottom: none;
+	font-size: 13px;
+}
+.t2 .tr2 .td2{
+	border-left: none;
+	border-bottom: none;
+	color:#444;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+}
+ .t2 .tr2 .td2 .telCurator{
+	float: left;
+	margin-left: 20px;
+}
+.t2 .tr2 .td2 .NameTeacher{
+	float: left;
+	margin-left: 10px;
+}
+.t2 .tr2 .td2f,.t2 .tr2 .th2f{border-left: 1px solid silver; width: 20px;}
+.t2 .tr2 .td2l{border-bottom: 1px solid silver;}
+.t2 .tr2 .tdNum{width: 200px;}
+.Hide, .s2{display: none;}
+.write{
+	width: 100%;
+	height: 100%;
+	float: left;
+	border:none;
+	color:#333;
+	font-size: 13px;
+	text-align: center;
+	outline: none;
+}
+
+.userName:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.hide{
+	display: block;
+}
+.do1, .do2{
+	/*background:#333;*/
+	float: left;
+}
+.do1:hover, .do2:hover{
+	cursor: pointer;
+}
+.edit1{
+	float: right;
+}
+.do1{color: #44944A; float: left;}
+.do2{color:#E32636;margin-left: 2px;float: right;}
+.simvols{
+	width: 25px;
+}
+.td2{
+	background:#fff;
+}
+.write{
+	display: none;
+	background:#444;
+	color:#fff;
+}
+.t2 .tr2 .td2 .status{
+	text-align: center;
+}
+.plus{
+	transform: rotateZ(45deg);
+	margin-left: 6px;
+	font-size: .9em;
+}
+.t2 .tr2 .tds{
+	width: 90px;
+}
+.t2 .tr2 .tdt{
+	width: 90px;
+}
+.t2 .tr2 .tdn{
+	width: 180px;
+}
+.t2 .tr2 .td2f{
+	width: 20px;
+}
+.addTeather{
+	width: 90%;
+	height: 100%;
+	border:none;
+	color:#444;
+	padding-left: 5px;
+}
+#addTeather{
+	color:green;
+}
+
+.blockLeft{
+	min-height: 100px;
+}
+.blockLeft2{
+	border:none;
+	background: none;
+	overflow: hidden;
+}
+.minLeft, .minRight, .minRight2{
+	border: 1px solid silver;
+	border-radius: 3px;
+	background-color: #fff;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.minLeft{
+	width: 35%;
+	height: 310px;
+	float: left;
+	overflow: hidden;
+	background-color: #000;
+}
+.minLeft img{
+}
+.minRight, .minRight2{
+	width: 60%;
+	min-height: 310px;
+	float: right;
+	overflow: hidden;
+}
+.t22{width: 90%;margin:0px 0px;margin-left: 5%;}
+.t2 .tr2 .td22{border:none;border-bottom:1px dotted silver; margin-left: 5px;}
+
+.t2 .tr2 .td22 p{text-align: center;}
+.t2 .tr2 .tt2{ width: 45%;text-align: center;}
+.t2 .tr2 .td2r{ width: 35%;}
+.More, .EDIT{
+	font-size: 12px;
+	color:#555;
+	margin-left: 5%;
+	margin-top: 3px;
+}
+.More:hover, .EDIT:hover{
+	color:#333;
+	cursor: pointer;
+}
+.moreInfo{
+	display: none;
+}
+.EDIT{
+	margin-bottom: 5px;
+}
+.Hide{
+	display: none;
+}
+.t2 .tr2 .td2 .p2{
+	float: left;
+	margin-left: 20px;
+}
+/*.t2 .tr2 .nameB2{
+	width: 230px;
+}*/
+.t2 .tr2 .tSave{
+	width: 10px;
+	float: right;
+}
+.t2 .tr2 .tInfo{
+	width: 200px;
+}
+.t2 .tr2 .tName{
+	width: 170px;
+}
+
+#loadAvatar{
+	display: none;
+}
+#labelLoad{
+	display: block;
+	width: 80px;
+	height: 20px;
+	line-height: 20px;
+	background: #2A8D9C;
+	/*border: 1px solid silver;*/
+	border-radius: 5px;
+	font-size: 12px;
+	color: #fff;
+	margin-top: 4px;
+	margin-left: 5%;
+	text-align: center;
+	display: inline-block;
+}
+#labelLoad:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.buttonLoadAvatar{
+	width: 80px;
+	height: 20px;
+	line-height: 20px;
+	display: inline-block;
+	background: #444;
+	border-radius: 5px;
+	border:none;
+	margin:0 0;
+	color: #fff;
+}
+.buttonLoadAvatar:hover{
+	background: #555;
+}
+.error{
+	color: #E32636	;
+	font-size: 13px;
+	margin-left: 5px;
+}
+.t2 .tr2 .tdName a{float: left;margin-left: 7px; font-size: 13px;}
+.nameB {width: 180px;min-width: 180px;max-width: 250px;}
+.t2 .tr2 .subjectB{min-width: 30px;}
+
+.minMenu{
+	font-size: 14px;
+	color: #555;
+	margin: 5px;
+}
+.minMenu:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.workWithCurator{
+	background: #B03F35;
+	text-align: center;
+}
+
+.s1{color: #444;}
+.Hide2{margin-right: 5px;}
+.messageFromCurator{
+	border-radius: 4px;
+	min-height: 40px;
+	margin: 5px;
+	background: #DFDFDF;
+	padding: 5px;
+	/*border: 1px solid silver;*/
+}
+.messageFromCurator article{
+	margin: 5px;
+	color: #000;
+	font-size: 14px;
+
+}
+
+.t2 .tr2 .tTopic{
+width: 100px;
+}
+.t2 .tr2 .tDate{
+width: 40px;
+}
+.t2 .tr2 .subjectB{
+	min-width: 30px;
+}
+.t2 .tr2 .tB{width: 30px;}
+.tBK, .messageToPupil, .topic, .buttonSave,.buttonSave2{
+	margin-left:5%;
+}
+.tBK{
+	width: 90%;
+}
+.t2 .tr2 .namePupil{
+	width: 200px;
+}
+.buttonSave{
+	width: 150px;
+	height: 25px;
+	line-height: 25px;
+	margin-top: 0;
+	margin-bottom: 5px;
+	background: #00ACED;
+	border: none;
+	color:#fff;
+}
+.buttonSave:hover{
+	background: #0095B6;
+	transition:1s;
+}
+
+.hide{
+	display: block;
+}
+.topic{
+	display: block;
+	width:90%;
+	margin-bottom: 5px;
+	padding-left: 5px;
+	height: 25px;
+	line-height: 25px;
+	border:none;
+	border: 1px solid silver;
+	border-bottom: 2px solid silver;
+}
+.messageToPupil{
+	display: block;
+	width:90%;
+	height: 50px;
+	border: 1px solid silver;
+	border-bottom: 2px solid silver;
+	margin-bottom: 5px;
+	padding: 5px;
+	resize:none;
+}
+.topic:focus, .messageToPupil:focus{
+	border-bottom: 2px solid #1184d0;
+}
+.work{
+	margin-left: 8%;
+}
+.toPageA{
+	color: #fff;
+}
+.DeletePost{
+	float: right;
+	margin-left: 10px;
+	color:#fff;
+}
+.search{
+	display: block;
+	margin:0;
+	margin-left: 5px;
+	width: 350px;
+	height: 25px;
+}
+.found, .found2, .found3, .found5{
+	margin-bottom: 5px;
+	display: none;
+}
+.error2, .error3, .error4{
+	font-size: 13px;
+	margin-left: 5px;
+}
+#found tr td, #found tr th, #found2 tr td, #found2 tr th{
+	border-color: #47A76A;
+	/*background: #f0f0f0;*/
+}
+.NAME{
+	background: #009B76;
+	color: #fff;
+	text-align: left;
+	padding-left: 10px;
+	border-radius: 3px;
+}
+.workWithCurator{
+	text-align: left;
+	padding-left: 10px;
+	border-radius: 3px;
+}
+.NAME:hover, .workWithCurator:hover{
+	padding-left: 30px;
+	transition:1s;
+}
+.simvols2{width: 30px;}
+.late, .willDelete , .Exit{font-size: 12px;color: red;display: inline-block;}
+.Exit{margin-right: 2px;}
+.late:hover{cursor: pointer;}
+.Save{width: 20px;}
+.WhySave{margin-left: 3px;}
+.Why{display: none;}
+.write6{display: block;background: #fff;color: #000;}
+/*.tWhy .tr2 .th2, .tWhy .tr2 .td2{border-color:#2A8D9C;}*/
+.fa-search2{
+	color: #666;
+	margin-left: -20px;
+	margin-top: 10px;
+	position: absolute;
+}
+#search3{display: inline-block;}
+.fa-search2:hover{cursor: pointer;color: #333;}
+#send{
+	margin-bottom: 0px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.hide1{overflow-x: scroll;margin-right: 5px;}
+.tOb{width: 250px;}
+.tOb .tr2 .tdName{max-width: 250px;}
+.tOb .tr2 .thBal{max-width: 50px;}
+.totalsP{float: center;min-width: 80px;}
+.fromCurator, .blockLeft2{display: none;}
+.minLeft,.minRight{display: none;}
+.userName,.userName3{float: left;margin-left: 5px;}
+.CURATOR{background: #0095B6;}
+.nameMF{width: 250px;}
+.telCurator{text-align: left;}
+.checkbox{margin: 0 auto;margin-bottom: -5px;}
+.Checkbox{border-left: none;}
+.nameMF{
+	width: 250px;
+}
+.telCurator{
+	text-align: left;
+}
+.checkbox{
+	margin: 0 auto;
+	margin-bottom: -5px;
+}
+.Checkbox{
+	border-left: none;
+}
+.t2 .second{
+	background: #DFDFDF;
+}
+.buttonSave{
+	display: inline-block;
+	margin: 0 0;
+	margin-left: 0;
+	height: 26px;
+	line-height: 26px;
+}
+.input2{
+	display: inline-block;
+	margin:0 0;
+	margin-left:0px;
+	margin-bottom:5px;
+}
+.DeleteTable{
+	width: 260px;
+}
+.select{
+	height: 27px;
+	width: 120px;
+	margin: 0 0;
+}
+.blockLeft4{min-height: 75px;}
+.chart_div {
+	min-width:495px;
+	max-height: 150px;
+	margin-left: -45px;
+	margin-top: 5px;
+
+}
+.groupMinDivLeft, .curatorMinDivLeft{
+	height: 175px;
+	width: 60%;
+	float: left;
+	overflow: hidden;
+}
+
+.groupMinDivRight, .curatorMinDivRight{
+	height: 175px;
+	width: 40%;
+	float: right;
+	padding-top: 20px;
+}
+.groupMinDivRightInner{
+	width: 100%;
+	height: 100%;
+}
+.groupsGTable .tr2 .td2 .p2{
+	margin-left: 0;
+}
+.t2 .tr2 .td2 .subjectForChartP{float:left;margin: 0 0;}
+.t2 .tr2 .tdG1{ width: 20%;}
+.t2 .tr2 .tdG2{ width: 80%;}
+#groupTeacher{width: 220px;}
+#SubjectGroupTeacher{width: 100px;}
+/*---------------------------*/
+.t2 .tr2 .Money{
+	min-width: 50px;
+	height: 20px;
+}
+.t2 .tr2 .nB{
+	min-width: 20px;
+}
+.t2 .tr2 .tdName, .t2 .tr2 .nameB2{
+	min-width: 230px;
+}
+
+.changeDayOfGroup .tr2 .tdName{min-width: 130px;}
+.t2 .tr2 .extraT{
+	min-width: 70px;
+}
+.t2 .tr2 .subject5{min-width: 50px;}
+.t2 .tr2 .Count{min-width: 20px;}
+.t2 .tr2 .td2 .PayPrice{margin-left: 5px;}
+.t2 .tr2 .dateAndPay{
+	min-width: 80px;
+}
+.t2 .tr2 .tDate{
+	min-width: 80px;
+}
+.PayPrice{
+	color:green;
+}
+.MonthDivInner{
+	overflow: auto;
+	min-height: 200px;
+	max-height: 500px;
+}
+.group > .td2{background: #00ACED;border:none;min-height: 50px;}
+.group > .td2 p{
+	color:#fff;
+	font-size: 15px;
+}
+.userOut > .td2{background: #B03F35;border:none;min-height: 50px;}
+.userOut > .td2 p{
+	color:#fff;
+	font-size: 15px;
+}
+.Months{
+	width: 120px;
+}
+.mdam{}
+.t2 .tr2 .mdamTd{min-width: 100px;}
+.getId, .getId30{
+	display: none;
+}
+#SEARCH{
+	float: right;
+	display: inline-block;
+	margin-right: 5px;
+}
+#search6{
+	display: inline-block;
+	width: 200px;
+	height: 23px;
+	margin-top: 1px;
+	border-radius: 0;
+	border: none;
+	margin-left: 30px;
+}
+#search6:focus{
+	border:none;
+	box-shadow: none;
+}
+.P1{
+	display: inline-block;
+}
+.search6I:hover{
+	cursor: pointer;
+}
+.topicAndSearch{
+	position: absolute;
+	right: 20px;
+}
+.excel{
+	margin-top: 35px;
+}
+.number12{
+	min-height: 23px;
+	line-height: 23px;
+}
+
+
+.blockLeft{
+	padding-bottom: 5px;
+}
+#sendReg{
+	margin-top: 10px;
+}
+.FormReg{
+	margin-left: 10px;
+}
+.userName2{
+	text-align: left;
+	margin-left: 5px;
+}
+.userNameFound:hover{cursor: pointer;}
+.thCouse{width: 150px;}
+.todeysMoney{min-width: 650px;}
+.todeysMoney tr th{text-align: center;}
+.monthsSearchExtra{margin-left: 5px;}
+.blueP{background: #0095B6;}
+.money30PTd{min-width: 120px;}
+.excel .tr2 .groupNameTd{height: 25px;}
+.userName{font-size: 14px;}
+.workWithCuratorDiv2 p{font-size: 13px;}
+.workWithCuratorDiv p{font-size: 13px;}
+.ortaBal{font-size: 12px;}
+.noTestsP{color:red;margin-left: 5px;}
+.tGetAllGroup {margin-left: 4px;}
+.t2 .tr2 .tdGetAllGroup{min-width: 252.1px;}
+.th2NameCurator{background: #00ACED;color: #fff;border-top:none;border-bottom:none;}
+.groupNameP{color: #fff;text-align: center;}
+.tdBottom{border-top:none;}
+.tdShowAlluserOfGroup:hover{cursor:pointer;}
+.contract0{background: #E32636;border:1px solid #E32636;}
+.contract0 p{color: #fff;}
+.testsP{float: left; margin: 5px;}
+.loadTest{font-size: 15px;color:#6A5ACD;}
+.loadTest:hover{text-decoration: underline;}
+.t2 .activeTest1 .noSimvolTd{background: #1DACD6;border:none;}
+.t2 .activeTest1 .noSimvolTd .testsNameP{color:#fff;}
+.profileBlocks{display: block;}
+.form-input{width: 200px;margin: 5px 5px;margin-left:0;}
+form{margin: 5px;}
+#buttonSearchExtra:focus{outline: none;}
+.form-input{min-width: 250px;max-width: 250px;margin: 5px 5px;margin-left:0;}
+table tr td p{margin: 0 0;}
+.form-search{min-width: 350px;max-width: 350px;}
+.workWithCuratorDiv2 table tr th{text-align: center;}
+.containerMainNav{background: #fff;border-bottom:1px solid silver;margin-bottom: 5px;}
+.col-mine-nav{
+	border-right:1px solid silver;
+	border-left:1px solid silver;
+}
+table tr th{text-align: center}
+.user-name{display: inline-block;position: absolute;bottom:0;margin-left: 20px;font-size: 14px;}
+.info{display:none;}
+.form-changePass{min-width: 250px;}

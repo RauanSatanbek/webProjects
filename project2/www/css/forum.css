@@ -1,0 +1,98 @@
+.bodyF{
+	margin:10px;
+}
+.bodyF p{
+	background: #444455;
+	height: 25px;
+	margin-top: 1px;
+	line-height:25px;
+	padding-left: 30px;
+	color:#f0f0f0;
+	border-radius:4px;
+}
+.subject:hover{
+	cursor:pointer;
+	padding-left: 60px;
+	transition:.8s;
+	}
+/* forumD*/
+
+/*.button{
+	width: 150px;
+	margin-left: 120px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}*/
+.forumD{
+	width: 97%;
+	border:1px solid #889;
+	margin:7px auto;
+	border-radius:5px;
+	/*height: auto;*/
+	overflow: hidden;
+	background: #f0f0f0;
+	z-index:-50;
+}
+.userPhotoForum{
+	width: 14.8%;
+	height: 100px;
+	/*background: red;*/
+	float: left;
+}
+.photoForum{
+	width: 85px;
+	height: 85px;
+	background: #888;
+	margin: 8px auto;
+	border-radius:5px;
+	overflow: hidden;
+}
+.photoForum img{
+	margin-left:-10px;
+	margin-top: -15px;
+}
+.infoQuestion{
+	width: 85%;
+	min-height: 100px;
+	/*background: blue;*/
+
+	border-left:1px solid #889;
+	float: right;
+}
+.infoUserForum{
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	/*background: yellow;*/
+	border-bottom:1px solid #889;
+}
+.name{
+	float: left;
+	margin-left: 5px;
+}
+.time{
+	float: right;
+	margin-right: 5px;
+}
+.messageForum{
+	padding:5px;
+	min-height: 50px;
+}
+.openComment{
+	width: 100%;
+	min-height: 20px;
+	line-height: 20px;
+	/*margin-top: 35px;*/
+	border-top:1px solid #889;
+}
+.openAndClose{
+	margin-left: 5px;
+}
+.openAndClose:hover{
+	cursor:pointer;
+	text-decoration: underline;
+}
+.answers,.close{
+	display: none;
+}

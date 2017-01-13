@@ -1,0 +1,75 @@
+#tableAllUsers{
+	/*border:.5px solid  #888;*/
+	/*border-collapse: collapse;*/
+	margin: 0 auto;
+}
+
+#tableAllUsers tr{
+	display: block;
+	/*margin-top: 2px;*/
+}
+#tableAllUsers th {
+	/*background: #004d40;*/
+	background: url(../img/cartographer.png);
+	opacity:.85;
+}
+#tableAllUsers th:first , td:first{
+	width: 50px;
+}
+#tableAllUsers th , td{
+	border:.5px solid  #888;
+	width: 200px;
+	text-align: center;
+	color:#2f4f4f;
+	height: 20px;
+	line-height: 20px;
+}
+
+
+/**/
+
+	#imgAllusers{
+		width: 70px;
+		height: 70px;
+		overflow: hidden;
+	}
+	#nameAllusers{
+		margin-top: -86px;
+		margin-left: 120px;
+	}
+	#nameAllusers p{
+		color:#333;
+	}
+	#allusers{
+		width: 100%;
+		height: 100px;
+		background: #E6E6FA;
+
+	}
+	#imgAndName{
+		float: left;
+	}
+	#imgAllusers{
+		margin: 15px;
+	}
+	#userAvatar{
+		margin-left: 0px;
+	}
+	
+	#actions{
+		float: right;
+		margin-right: 50px;
+		margin-top: 14px;
+	}
+	.writeMassageToUser, .showUser{
+		color:#2f4f4f;
+	}
+
+	.writeMassageToUser:hover, .showUser:hover{
+		color:#333;
+	}
+
+	#searchUsers{
+		margin-bottom: 50px;
+		/*border:2px solid #333;*/
+	}

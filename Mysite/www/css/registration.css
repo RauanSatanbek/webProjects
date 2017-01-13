@@ -1,0 +1,105 @@
+
+.block{
+
+	font-family:sans-serif, Arial;
+
+	color:#444;
+	font-style: italic;
+	font-size:0.9em;
+	max-width:500px;
+	/*height: 300px;*/
+	/*border:1px solid #333;*/
+	margin: auto;
+}
+.block2{
+	/*height: 340px;*/
+}
+.block h2{
+	padding-top: 20px;
+	margin-left: 20px;
+}
+.block form{
+	margin-left:65px;
+}
+.block form label{
+	display: block;
+	/*padding-top: 5px;
+	padding-bottom: -10px;*/
+
+}
+
+.block form span{
+	font-size: 12px;
+	color:red;
+
+}
+input{
+	display: inline-block;
+	height: 20px;
+	width:200px;
+	margin-bottom: 10px;
+	border:1px solid #999;
+}
+#sendLoginReg, #sendRegLogin{
+	margin-left: -10px;
+}
+/*.block form input:hover{
+	border:1px solid #333;
+}*/
+.button{
+	/*float:right;*/
+	margin-right: 20px;
+	width: auto;
+	height: 25px;
+	background: #2F4F4F;
+	color:white;
+	cursor:pointer;
+	border:1px solid #333;
+	border-radius: 3px;
+}
+.button:focus{
+	outline:none;
+}
+
+.button:hover{
+	border:1px solid silver;
+	outline:none;
+	transition:.3s;
+	background: #444;
+}
+#info{
+	/*margin-left:150px;*/
+	text-align: center;
+	margin-top: -5px;
+
+}
+.infoImg{
+	display: inline-block;
+}
+
+#center{
+	margin-bottom: 200px;
+}
+
+/*Captcha*/
+ @font-face {
+	    font-family: Pompadur; /* Гарнитура шрифта */
+	    src: url(9190.ttf); /* Путь к файлу со шрифтом */
+	}
+	#captcha{
+		font-family: Pompadur;
+		font-size:20px;
+		border: 1px solid silver;
+		height: 25px;
+		line-height: 28px;
+		width:98px;
+		background: #f0f0f0;
+		text-align: center;
+		/*padding-top: 5px;*/
+		
+	}
+
+	.captcha{
+		max-width:98px;
+		display: inline-block;
+	}

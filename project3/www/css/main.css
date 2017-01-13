@@ -1,0 +1,138 @@
+#body{
+	width: 700px;
+	margin:0 auto;
+}
+header{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background: #B8860B;
+}
+.middle{
+	width: 100%;
+	/*height: 600px;*/
+	overflow: hidden;
+	display: block;
+	background: #333;
+	margin-top:1px;
+}
+
+ul{
+	margin-left: 30px;
+	list-style-type: none;
+}
+ul li{
+	display: inline-block;
+	height: 26px;
+	line-height: 26px;
+	width: 100px;
+	background: #334;
+	color:#DCDCDC;
+	text-align: center;
+}
+ul li:hover{
+	cursor: pointer;
+	background: #556;
+	transition:.7s;
+
+}
+footer{
+	margin-top:1px;
+	width: 100%;
+	height: 30px;
+	background: #B8860B;
+}
+hr{
+	border-radius: 0;
+}
+.p{
+	color:#DCDCDC;
+	margin: 1%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	display: inline-block;
+}
+.p3{
+	color:#DCDCDC;
+	margin: 1%;
+	margin-bottom: 5px;
+	margin-top: 0;
+	display: inline-block;
+}
+.cp{
+	float: right;
+}
+.chats{
+	width: 100%;
+	overflow: hidden;
+	/*margin-top: 10px;*/
+	margin-bottom: 10px;
+}
+#creat{
+	width: 75px;
+}
+#chats{
+	width: 50px;
+}
+#creat:hover, #chats:hover{
+	text-decoration: underline;
+	cursor:pointer;
+}
+
+#number{
+	width: 37px;
+	height: 32px;
+	border:1px solid #334;
+}
+#subject{
+	width: 150px;
+}
+#creatchat{
+	width: 100px;
+	margin: 0;
+}
+.input2{
+	margin:0;
+}
+.creatchat{
+	display: none;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 1%; 
+	margin-bottom: 10px;
+}
+/*-------------------------*/
+	table{
+		width: 100%;
+		border-spacing: 5px 5px;
+	}
+	table tr{
+		min-height: 25px;
+		line-height: 25px;
+	}
+	table tr td, th{
+		width: 55%;
+		color:#DCDCDC;
+		margin-left: 1px;
+		text-align: center;
+		border:1px solid #999;
+	}
+	table tr td:first-child, th:first-child{
+		width: 5%;
+	}
+	.number{
+		width: 15%;
+	}
+	#creator{
+		width: 25%;
+	}
+
+	.tema:hover{
+		cursor: pointer;
+		text-decoration: underline;
+	}
+/*for dialog*/
+.dialog{
+	margin-top: 1px;
+}

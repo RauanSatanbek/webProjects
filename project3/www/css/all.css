@@ -1,0 +1,14 @@
+*{
+	margin: 0 0;
+	padding: 0 0 ;
+	font-family: Arial;
+	font-size: 12px;
+	/*color:#DCDCDC;*/
+	border-radius:4px;
+	outline: none;
+}
+
+body{
+	background: white;
+}
+

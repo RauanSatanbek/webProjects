@@ -1,0 +1,16 @@
+rauan_51
+0K0v6M8b
+Пользователь rauan_51
+WWW-домен 125edu.kz
+Почтовый домен 125edu.kz
+FTP-пользователь rauan_51
+185.22.65.124
+Mysql & ftp
+rauan_51
+U1v3P6l2
+ISP menager
+https://185.22.65.124:1500/ispmgr
+root
+0lobo3Y75W
+C:\Program Files\Java\jdk1.8.0_73\bin
+C:\Program Files\far\minGW-5.1.6\bin; C:\Program Files\far;

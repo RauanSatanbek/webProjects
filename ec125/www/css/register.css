@@ -1,0 +1,88 @@
+#loginForm, #registerForm{
+	background: #fff;
+ 	position: fixed;
+	/*overflow: hidden;*/
+	z-index: 500;
+	border-radius: 5px;
+	display: none;
+}
+
+#loginForm{
+	width: 350px;
+	left:37%;
+	height: 250px;
+	top:30%;
+}
+
+#registerForm{
+	width: 500px;
+	height: 650px;
+	margin: 10px 450px;
+	/*display: block;*/
+}
+.form{
+	display: block;
+	padding-top:10px;
+	padding-left: 30px;
+}
+.input, .legRegSelect{
+	margin-top: 10px;
+	padding-left: 7px;
+	border:1px solid silver;
+	border-radius:5px;
+	width: 200px;
+	height:25px;
+}
+#sendLog{margin-top: 5px;}
+.input:focus, .select:focus{
+	border:1px solid #1184d0;
+	box-shadow: 0 0 15px rgba(0,255,255, .3) inset, 0 0 15px rgba(0,255,255, .5);
+}
+.button{
+	margin-top: 10px;
+	border:1px solid #556;
+	border-radius:4px;
+	width: 150px;
+	height: 27px;
+	line-height: 27px;
+	color:#444;
+	margin-bottom: 30px;
+	z-index: 456;
+	background: #00ACED;
+	border: none;
+	color:#fff;
+}
+
+.button:hover{
+	cursor: pointer;
+	background: #0095B6;
+	transition:1s;
+}
+#number{
+	width: 37px;
+	height: 31px;
+	border:1px solid #334;
+}
+
+.formLogin{
+	display: block;
+}
+#info{
+	margin-top: 10px;
+}
+
+#infoLog, #infoReg{
+	font-size: 12px;
+	margin-top: -40px;
+}
+#infoReg{
+	margin-top: -15px;
+}
+.span{
+	color:#c9302c;
+	font-size: 13px;
+}
+
+#sendReg{
+	margin-bottom: 20px;
+}

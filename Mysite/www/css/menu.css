@@ -1,0 +1,57 @@
+/*.menu ul li:hover{
+	background: #B0C4DE;
+	border-radius: 3px;
+	cursor:pointer;
+}*/
+.menu ul{
+	padding-top: 5px;
+}
+.menu ul li{
+	display: inline-block;
+	width: 96%;
+	height:15px;
+	line-height: 10px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+.menu ul li a{
+	text-decoration: none;
+	/*font-family: Arial;*/
+	font-size: 1em;
+	color:	#333;
+}
+
+.menu ul li a:hover{
+	text-decoration: underline;
+}
+/*Reklama*/
+.reklama{
+	width: 120px;
+	height: 150px;
+	padding-left: 1px;
+	padding-top: 20px;
+
+	}
+#reklama{
+	margin-top:100px ;
+	margin-left: 5px;
+}
+/*.menu, .allInfo{
+	height: 550px;
+}*/
+.menu{
+	width: 21%;
+	float: left;
+	display: block;
+	/*border-right: 1px solid silver;*/
+}
+.allInfo{
+	float: right;
+	width: 78.65%;
+	border-right: 1px solid #2f4f4f;
+	border-left: 1px solid #2f4f4f;
+	/*height: auto;*/
+	/*border:1px solid #2f4f4f;*/
+	padding-bottom: 48px;
+
+}

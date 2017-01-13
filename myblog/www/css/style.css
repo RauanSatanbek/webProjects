@@ -1,0 +1,43 @@
+@font-face {font-family: Rauan;src: url(../шрифты/SFUIText-Light.otf);}
+*{
+	margin: 0 0;
+	padding: 0 0;
+	font-family:'Rauan', Arial, Tahoma, sans-serif;
+	text-decoration: none;
+	outline: none;
+	font-size: 14px;
+	color:#000;
+}
+body{background: url(../img/seamless_paper_texture.png);}
+.col{background: #fff;border:1px solid #ccc;padding-bottom: 20px;}
+.blog-body{background: #27AC7D;padding: 25px 0;margin: 15px 0;}
+.blog-img{
+	margin: 0 auto;
+	height:250px;
+	width: 250px;
+	border-radius: 50%;
+	overflow: hidden;
+	background: url(../img/we.jpg);
+	background-size: 250px;
+}
+.block-names-big{font-size: 28px;text-align: center;color: #333;}
+.block-names-small{font-size: 18px;text-align: center;color: #27AC7D;font-style: italic;}
+.blog-projects{width: 80%;margin-left: 10%;text-align: center;}
+.blog-info{text-align: center;}
+.blog-table {width: 10%;}
+.blog-table tr td{min-width: 20px;max-width: 150px;border:none;}
+.blog-contacts-1{width: 120px;height: 40px;margin: 0 auto;}
+.blog-contacts-2{width: 200px;}
+.blog-contacts-1 p{display: inline-block;}
+.blog-info{position: absolute;line-height: 40px;margin-left: 10px;}
+.blog-info-2{line-height: 30px;}
+.blog-vk{width: 50px;height: 50px;border-radius: 50%;background: #27AC7D;margin: 0 auto;border:1px solid #444;}
+.blog-vk:hover{cursor:pointer;}
+.vk-icon{text-align: center;padding: 10px 0;}
+.fa-vk{color: #fff;}
+.block-aboutMe-topic{font-size: 16px;color: #27AC7D;}
+.blog-text-about{text-align: none;padding-left: 2%;}
+.fa-circle{font-size: 10px;color: #666;}
+.block-aboutMe-text{margin-left: 5%;}
+.block-aboutMe-text p{color: #555;}
+.blog-works-img{border:1px solid #fff;}

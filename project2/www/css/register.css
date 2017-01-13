@@ -1,0 +1,49 @@
+#loginForm, #registerForm{
+	display: block;
+	
+	background: #445;
+	position: absolute;
+	z-index: 5;
+	display: none;
+	/*margin:20px auto;*/
+}
+#loginForm{
+	width: 350px;
+	height: 220px;
+	margin: 0px 566px;
+	/*display: none;*/
+}
+#registerForm{
+	width: 600px;
+	height: 400px;
+	margin: 0px 462px;
+}
+.form{
+	display: block;
+	padding-top:10px;
+	padding-left: 50px;
+}
+.input{
+	margin-top: 20px;
+	padding-left: 5px;
+	border:1px solid #334;
+	border-radius:5px;
+	width: 200px;
+	height:30px;
+}
+.button{
+	margin-top: 20px;
+	border:1px solid #556;
+	border-radius:5px;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+}
+.button:hover{
+	cursor: pointer;
+	background: #E6E6FA;
+}
+
+#info{
+	margin-top: 20px;
+}

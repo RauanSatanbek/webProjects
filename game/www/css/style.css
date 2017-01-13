@@ -1,0 +1,54 @@
+body{background: url(../img/seamless_paper_texture.png);}
+@font-face { font-family: Rauan;src: url(../шрифты/2211.ttf);}
+*{
+	margin: 0 0;
+	padding:0 0;
+	font-family:'Rauan';
+	text-decoration: none;
+	outline: none;
+	font-size: 14px;
+}
+.col{
+	width: 5px;
+	height: 300px;
+	background: #444;
+	display: inline-block;
+}
+.col2, .col3{margin-left: 100px;}
+/*.col2, #rect2, #player2{background-color: #286090;}
+.col3, #rect3, #player3{background-color: #449d44;}
+.col1, #rect1, #player1{background-color: #c9302c;}
+#player2, #player3, #player1{border:1px solid #333;}*/
+.row{margin-top: 50px;}
+.rect{width: 105px; height: 5px;background: #444;position: absolute;margin-left: -50px;}
+.player {
+	width: 20px;
+	height: 20px;
+	background-color: #c9302c;
+	border-color: #761c19;
+	position: absolute;
+	margin-left: -7.5px;
+	margin-top: 274px;
+}
+.cols{margin:0 auto;width: 525px;}
+.rect2{margin-top: 300px;}
+#player2 , #player3{display: none;}
+.count{width: 100px;height: 100px;background: #fff; border-radius: 50%;border:1px solid silver;margin: 0 auto;}
+#number{text-align: center; font-size: 35px;margin-top: 25px;}
+.hearts i{color:red;}
+.hearts{margin: 0 auto;width: 50px;}
+.game-over{font-size: 45px;width: 290px;color:#fff;margin: 0 auto;display: none;}
+button p{font-size: 35px;color: #fff}
+button{width: 100px;height: 300px;position: absolute;background: #444;border:none;}
+.btn-left{left:240px;}
+.btn-right{right:240px;}
+/*.row{background: red;}*/
+.finish{width: 45px;height: 1px; background: red;position: absolute;margin-left: -20px;margin-top: 5px;z-index: -654;}
+.finish2{margin-top: 295px;}
+footer{
+	width: 100%;
+	height: 100px;
+	background: #286090;
+}
+footer p{display: inline-block;}
+.foot-text{margin: 10px;color: #fff;}
